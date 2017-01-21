@@ -200,15 +200,6 @@ a:hover {
 }
 
 @media screen and (max-width: 1020px) {
-    h1 {
-        font-size: 1000%;
-    }
-    h2 {
-        font-size: 300%;
-    }
-    p {
-        font-size: 200%;
-    }
     #loaderlaabel {
         margin-top: 4em;
     }
