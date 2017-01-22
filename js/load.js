@@ -15,7 +15,7 @@ setTimeout(function() {
                 count++;
             }
         }
-        $('.parallax').css("overflow-y", "auto").css("overflow-x","hidden");
+        $('.parallax').css("overflow-y", "scroll").css("overflow-x","hidden");
         $('#page1base').css("background-color", "#112233");
         $('#intro').hide().delay(2000).fadeIn(1000)
     }, 2000);
