@@ -20,3 +20,11 @@ setTimeout(function() {
         $('#intro').hide().delay(2000).fadeIn(1000)
     }, 2000);
 }, 2000); 
+$('#popuplink').click(function() {
+    $('#attendance').toggleClass('show');
+})
+$('#attendance').click(function() {
+    if ($(this).hasClass('show')){
+        $(this).toggleClass('show');
+    }
+})
