@@ -28,3 +28,16 @@ $('#attendance').click(function() {
         $(this).toggleClass('show');
     }
 })
+/*$(window).scroll(function() {
+    console.log("hi");
+    $('.parallax__group').each(function(i, obj){
+        if (checkVisible(obj)){
+            $('.nav').eq(i).css("background-color", "#000000");
+        }
+    });
+});
+function checkVisible(elm) {
+  var rect = elm.getBoundingClientRect();
+  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+  return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+}*/

@@ -4,6 +4,7 @@
 body {
     font-family: Sleek, Helvetica, Arial, sans-serif;
     font-size: 100%;
+    transform: translateZ(0);
 }
 
 html, body {
@@ -71,6 +72,7 @@ a:hover {
     overflow-x: hidden;
     overflow-y: hidden;
     transform-style: preserve-3d;
+    scroll-behavior: smooth;
 }
 .parallax__layer {
     transform-origin-x: 100%;
