@@ -132,6 +132,10 @@ a:hover {
     -ms-animation: color_change 1s infinite alternate;
     -o-animation: color_change 1s infinite alternate;
     animation: color_change 1s infinite alternate;
+    transition: none;
+    -webkit-transition: none; /** Chrome & Safari **/
+    -moz-transition: none; /** Firefox **/
+    -o-transition: none; /** Opera **/
     }
 
 #loader.loaded {
@@ -140,6 +144,10 @@ a:hover {
     left: 0;
     transform: translate(0,0);
     animation: none;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
 }
 
 #loaderlabel{
