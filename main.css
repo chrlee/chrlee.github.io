@@ -43,11 +43,11 @@ a:hover {
 .block {
     display: block;
     visibility: hidden;
-    position: fixed;
-    width: 3em;
-    height: 3em;
-    top: 0em;
-    left: 0em;
+    position: absolute;
+    width: 3vmax;
+    height: 3vmax;
+    top: 0;
+    left: 0;
     margin: 0;
     transition: all 2s ease-in-out;
     -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
